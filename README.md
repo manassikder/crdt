@@ -10,53 +10,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+need maven and java installed
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Clone the project and Import as Maven project in the IDE. Run build from root directory of the project
 
 ```
-Give the example
-```
-
-And repeat
+mvn clean install
 
 ```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Run the JUnit test cases 
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Run the JUnit test cases from IDE or using maven
 
 ```
-Give an example
+mvn test
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -67,12 +40,10 @@ Add additional notes about how to deploy this on a live system
 
 * **Manas Sikder** - *Initial work* - [manassikder](https://github.com/manassikder)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
 
